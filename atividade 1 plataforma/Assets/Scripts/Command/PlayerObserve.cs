@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MoveUp : ICommand
+/*public class MoveUp : ICommand
 {
     private Transform playerTransform;
 
@@ -49,3 +49,4 @@ public class GetCoin : ICommand
 }
 
     
+*/

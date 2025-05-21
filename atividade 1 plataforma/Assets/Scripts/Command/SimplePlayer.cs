@@ -21,13 +21,13 @@ public class SimplePlayer : MonoBehaviour
         if (Keyboard.current.upArrowKey.wasPressedThisFrame || Keyboard.current.wKey.wasPressedThisFrame)
         {
            // transform.position += Vector3.up;
-           myCommandManager.AddComponent(new MoveUp(transform));
+          // myCommandManager.AddComponent(new MoveUp(transform));
         }
         
         if (Keyboard.current.rightArrowKey.wasPressedThisFrame || Keyboard.current.dKey.wasPressedThisFrame)
         {
             // transform.position += Vector3.right;
-            myCommandManager.AddComponent(new MoveRight(transform));
+            //myCommandManager.AddComponent(new MoveRight(transform));
         }
     }
 
@@ -37,7 +37,7 @@ public class SimplePlayer : MonoBehaviour
         {
            // moedas++;
             //Destroy(other.gameObject);
-            myCommandManager.AddCommand(new GetCoin(this, other,gameObject));
+           // myCommandManager.AddCommand(new GetCoin(this, other,gameObject));
         }
     }
 
